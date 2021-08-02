@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyCs66f2X1pSF4BQUq74fIMrzQlvCaNkkH4",
+        authDomain: "nc-firebase-teste.firebaseapp.com",
+        projectId: "nc-firebase-teste",
+        storageBucket: "nc-firebase-teste.appspot.com",
+        messagingSenderId: "351928560035",
+        appId: "1:351928560035:web:31d0e23345109bdbf39216",
+        measurementId: "G-HMW35H44CH",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="index.js"></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <div>
+      <i>Email:</i>
+      <input id="email_input_id" placeholder="Digite seu email" type="email" />
+      <br /><br />
+      <i>Senha:</i>
+      <input
+        id="password_input_id"
+        placeholder="Digite sua senha"
+        type="password"
+      />
+      <br /><br />
+      <button type="button" onclick="logar()">Logar</button>
+    </div>
+  </body>
+</html>

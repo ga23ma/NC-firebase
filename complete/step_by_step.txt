@@ -8,3 +8,6 @@
 8. Adicionar CDN autenticação https://firebase.google.com/docs/web/setup
 9. Adicionar função de login
 10. Adicionar função de controle de acesso
+11. Criar o Realtime database
+12. Adicionar CDN Realtimedatabase https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js
+13. Adicionar funcao de escrita e leitura

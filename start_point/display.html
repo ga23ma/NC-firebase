@@ -7,19 +7,19 @@
   <body>
     <div>
       <i>Nome:</i>
-      <input placeholder="Digite seu nome" type="text" />
+      <input id="nome_input_id" placeholder="Digite seu nome" type="text" />
       <br /><br />
       <i>Idade:</i>
-      <input placeholder="Digite sua Idade" type="number" />
+      <input id="idade_input_id" placeholder="Digite sua Idade" type="number" />
       <br /><br />
-      <button type="button">Salvar</button>
-      <button type="button">Exibir</button>
+      <button type="button" onclick="save()">Salvar</button>
+      <button type="button" onclick="read()">Exibir</button>
       <br /><br />
       <i>Nome:</i>
-      <i class="nome">-</i>
+      <i id="nome_output_id">-</i>
       <br /><br />
       <i>Idade:</i>
-      <i class="idade">0</i>
+      <i id="idade_output_id">0</i>
     </div>
   </body>
 </html>
